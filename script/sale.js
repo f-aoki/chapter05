@@ -1,7 +1,6 @@
 function time(){
     var jikoku = document.getElementById("jikoku_now");
-    jikoku.innerHTML="ここを書き換える";
-    /* var now = new Date();
+    var now = new Date();
     var year = now.getFullYear();
     var month = now.getMonth() + 1;
     var date = now.getDate();
@@ -27,7 +26,7 @@ function time(){
         sale = document.getElementById("17ji");
         sale.innerHTML = "セール中!";
         sale.style.color = "red";
-    } */
+    }
 };
 window.onload = function() {
     time();
