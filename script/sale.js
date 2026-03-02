@@ -30,5 +30,5 @@ function time(){
 };
 window.onload = function() {
     time();
-    /* setInterval('time()',1000); */
+    setInterval('time()',1000);
 };
