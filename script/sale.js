@@ -1,6 +1,6 @@
 function time(){
     var jikoku = document.getElementById("jikoku_now");
-    jikoku.innnerHTML="ここを書き換える";
+    jikoku.innerHTML="ここを書き換える";
     /* var now = new Date();
     var year = now.getFullYear();
     var month = now.getMonth() + 1;
